@@ -91,7 +91,7 @@
 ## 安装
 
 ```bash
-bash ss-manager.sh
+wget -O ss-manage.sh https://raw.githubusercontent.com/SumMoonYou/SS-Manage/main/ss-manage.sh
 ```
 
 首次运行会自动：
