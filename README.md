@@ -1,4 +1,4 @@
-# ss-manager
+# Shadowsocks 多用户管理脚本
 
 > Shadowsocks-Rust 多用户管理脚本 · 每用户独立端口 · 独立流量周期 · iptables 双向统计
 
@@ -90,8 +90,22 @@
 
 ## 安装
 
+### 1. 下载脚本
+
 ```bash
-wget -O ss-manage.sh https://raw.githubusercontent.com/SumMoonYou/SS-Manage/main/ss-manage.sh
+wget -O install.sh https://raw.githubusercontent.com/SunMoonWithYou/ss_manage/main/install.sh
+```
+
+### 2. 赋予执行权限
+
+```bash
+chmod +x install.sh
+```
+
+### 3. 运行
+
+```bash
+sudo ./install.sh
 ```
 
 首次运行会自动：
